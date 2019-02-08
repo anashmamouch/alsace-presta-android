@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mpm"
+        android:icon="@drawable/mpm"
+        android:showAsAction="ifRoom|withText"
+        android:title=" MPM"/>
+    <item
+        android:id="@+id/mulhouse"
+        android:icon="@drawable/mulhouse"
+        android:showAsAction="ifRoom|withText"
+        android:title=" Mulhouse"/>
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/question_mark"
+        android:showAsAction="ifRoom"
+        android:title=""/>
+
+</menu>

@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/base_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/violet"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@color/violet"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/introduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gris2"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/click_menu"
+            android:textColor="@color/blanc"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/titleMessages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/violet3"
+            android:textColor="@color/blanc"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textSize="@dimen/txt_select_package1"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/layout_carte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp" >
+
+            <ImageView
+                android:id="@+id/card"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logo1" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_messages"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/violet2"
+            >
+
+            <TextView
+                android:id="@+id/containerMessages"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:gravity="center|top"
+                android:padding="5dp"
+                android:textColor="@color/blanc"
+                android:textSize="@dimen/txt_select_package1" />
+
+            <Button
+                android:id="@+id/btn_function"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="180dp"
+                android:background="@color/orange"
+                android:padding="10dp"
+                android:textColor="@color/blanc"
+                android:textSize="@dimen/txt_select_package1" />
+
+            <RelativeLayout
+                android:id="@+id/function_bar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/violet4"
+                 >
+                
+                
+                <TextView
+                    android:id="@+id/index"
+                    android:layout_width="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/blanc"
+                    android:padding="5dp"
+                    android:textSize="@dimen/txt_select_package1" />
+                
+                <Button
+                    android:id="@+id/btn_previous"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/ico_prev" />
+
+                <Button
+                    android:id="@+id/btn_next"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ico_next" />
+                
+                
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/violet"
+        android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/logo_otipass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/otipass" />
+        
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:id="@+id/MenuFragment_layout_3"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/menu_bar_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_Retour"
+            style="@style/button_back" />
+
+        <Button
+            android:id="@+id/btn_Cancel"
+            style="@style/button_cancel" />
+
+        <Button
+            android:id="@+id/btn_Valid"
+            style="@style/button_valid" />
+    </RelativeLayout>
+
+</LinearLayout>

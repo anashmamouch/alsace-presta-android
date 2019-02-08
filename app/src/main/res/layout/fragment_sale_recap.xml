@@ -1,0 +1,262 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SaleRecapFragment_layout0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btn_sale"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/SaleRecapFragment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="10"
+        android:orientation="vertical" 
+        
+        >
+
+        <LinearLayout
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/NumOtipass_Text"
+                    style="@style/recap_sale"
+                    android:layout_weight="0.7"
+                    android:text="@string/pass_number"
+                    />
+
+                <TextView
+                    android:id="@+id/NumOtipass"
+                    style="@style/recap_sale.bold"
+                    android:layout_weight="1.3"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/PassType_Text"
+                    style="@style/recap_sale"
+                    android:layout_weight="0.7"
+                    android:text="@string/pass_type"
+                    />
+
+                <TextView
+                    android:id="@+id/PassType"
+                    style="@style/recap_sale.bold"
+                    android:layout_weight="1.3"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/Price_Text"
+                    style="@style/recap_sale"
+                    android:layout_weight="0.7"
+                    android:text="@string/price"
+                    />
+
+                <TextView
+                    android:id="@+id/Price"
+                    style="@style/recap_sale.bold"
+                    android:layout_weight="1.3"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Message"
+                style="@style/recap_sale.italic"
+                android:text="@string/validity_date_determined"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/FName_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/FName_Text"
+                style="@style/recap_sale"
+                android:layout_weight="0.7"
+                android:text="@string/surname"
+                />
+
+            <TextView
+                android:id="@+id/FName"
+                style="@style/recap_sale.bold"
+                android:layout_weight="1.3"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/Name_Text"
+                style="@style/recap_sale"
+                android:layout_weight="0.7"
+                android:text="@string/name"
+                />
+
+            <TextView
+                android:id="@+id/Name"
+                style="@style/recap_sale.bold"
+                android:layout_weight="1.3"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Email_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/Email_Text"
+                style="@style/recap_sale"
+                android:layout_weight="0.7"
+                android:text="@string/email"
+                />
+
+            <TextView
+                android:id="@+id/Email"
+                style="@style/recap_sale.bold"
+                android:layout_weight="1.3"
+                android:textColor="@color/blanc"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Country_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/country_Text"
+                style="@style/recap_sale"
+                android:layout_weight="0.7"
+                android:text="@string/country"
+                />
+
+            <TextView
+                android:id="@+id/Country"
+                style="@style/recap_sale.bold"
+                android:layout_weight="1.3"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/PostalCode_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/PostalCode_Text"
+                style="@style/recap_sale"
+                android:layout_weight="0.7"
+                android:text="@string/postal_code"
+                />
+
+            <TextView
+                android:id="@+id/PostalCode"
+                style="@style/recap_sale.bold"
+                android:layout_weight="1.3"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Newsletter_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/Newsletter_Text"
+                style="@style/recap_sale"
+                android:layout_weight="0.7"
+                android:text="@string/newsletter"
+                />
+
+            <TextView
+                android:id="@+id/Newsletter"
+                style="@style/recap_sale.bold"
+                android:layout_weight="1.3"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Entry_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/label_Text"
+                style="@style/recap_sale"
+                android:layout_weight="0.7"
+                android:text="@string/entree"
+                />
+
+            <TextView
+                android:id="@+id/Entry_Text"
+                style="@style/recap_sale.bold"
+                android:layout_weight="1.3"
+                />
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/SaleRecapFragment_layout_2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.5"
+        android:background="@color/menu_bar_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Btn_return"
+            style="@style/button_back.enabled" />
+
+        <Button
+            android:id="@+id/btn_Cancel"
+            style="@style/button_cancel" />
+
+        <Button
+            android:id="@+id/btn_Valid"
+            style="@style/button_valid.enabled" />
+    </RelativeLayout>
+
+</LinearLayout>

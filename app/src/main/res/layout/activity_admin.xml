@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menu_bar_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:background="@color/menu_bar_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/weight_header"
+		android:gravity="center_horizontal"
+        android:orientation="vertical" >
+        
+         <ImageView
+	        android:id="@+id/header_img"
+			 android:src="@drawable/init"
+			 style="@style/img_only_header" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/Admin_layout_1"
+        android:layout_width="fill_parent"
+        android:background="@color/vert"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/weight_display"
+        android:orientation="vertical" >
+    	
+    	<TextView
+	        android:id="@+id/error_text"
+	        style="@style/text_error" />
+    
+	    <EditText
+	        android:id="@+id/pwd_admin"
+            style="@style/edit_text_init"
+	        android:hint="@string/prompt_login"
+	        android:inputType="textPassword" />
+	
+	    <EditText
+	        android:id="@+id/provider_id"
+            style="@style/edit_text_init"
+	        android:hint="@string/prompt_Provider_id" />
+	    
+    </LinearLayout>
+    
+
+    <RelativeLayout
+        android:id="@+id/nav_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/weight_keyboard"
+        android:background="@color/menu_bar_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Btn_return"
+            style="@style/button_back" />
+
+        <Button
+            android:id="@+id/btn_Cancel"
+            style="@style/button_cancel" />
+
+        <Button
+            android:id="@+id/btn_Valid"
+            style="@style/button_valid.enabled" />
+    </RelativeLayout>
+    
+     <RelativeLayout
+        android:id="@+id/footer_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/action_bar_bg" />
+
+    
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btn_sale"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/SelectFragment_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.2"
+        android:orientation="vertical" 
+        android:background="@color/orange6"
+        >
+	    <TextView
+	        android:id="@+id/sale_selection"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textColor="@color/blanc"
+	        android:background="@color/orange6"
+	        android:padding="10dp"
+	        android:textSize="@dimen/txt_select_package1"
+	        >
+	    </TextView>
+	    <TextView
+	        android:id="@+id/sale_price"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textColor="@color/blanc"
+	        android:background="@color/orange6"
+	        android:padding="10dp"
+	        android:textSize="@dimen/txt_select_package2"
+	        android:textStyle="bold"
+	        android:text="" >
+	    </TextView>
+	    <TextView
+	        android:id="@+id/entry"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textColor="@color/blanc"
+	        android:background="@color/orange6"
+	        android:padding="5dp"
+	        android:textSize="@dimen/txt_select_package1"
+	        android:textStyle="bold"
+	        android:text="" >
+	    </TextView>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1.7"
+        android:orientation="horizontal"
+        android:background="@drawable/grid" >
+   	        <GridView
+	            android:id="@+id/gridPass"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_marginTop="@dimen/grid_margin"
+	            android:layout_marginRight="5dp"
+				android:layout_marginLeft="5dp"
+	            android:gravity="start"
+	            android:horizontalSpacing="5dp"
+	            android:stretchMode="columnWidth"
+	            android:verticalSpacing="0dp" />
+   	</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        android:orientation="horizontal"
+        android:background="@drawable/grid" >
+	        <GridView
+	            android:id="@+id/gridHolder"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_marginTop="@dimen/grid_margin"
+				android:layout_marginRight="5dp"
+				android:layout_marginLeft="5dp"
+	            android:gravity="start"
+	            android:horizontalSpacing="5dp"
+	            android:numColumns="3"
+	            android:stretchMode="columnWidth"
+	            android:verticalSpacing="0dp" />
+   	</LinearLayout>   	    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        android:orientation="horizontal" 
+        android:background="@drawable/grid" >
+	        <GridView
+	            android:id="@+id/gridOption"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="start"
+	            android:layout_marginTop="15dp"
+				android:layout_marginRight="5dp"
+				android:layout_marginLeft="5dp"
+	            android:horizontalSpacing="5dp"
+	            android:numColumns="3"
+	            android:stretchMode="columnWidth"
+	            android:verticalSpacing="0dp" />
+   	</LinearLayout>   	    
+    <LinearLayout
+        android:id="@+id/entry_select"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        android:orientation="horizontal" 
+        android:background="@color/btn_sale" >
+	        <GridView
+	            android:id="@+id/gridEntry"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="start"
+	            android:layout_marginTop="15dp"
+				android:layout_marginRight="5dp"
+				android:layout_marginLeft="5dp"
+	            android:horizontalSpacing="5dp"
+	            android:numColumns="3"
+	            android:stretchMode="columnWidth"
+	            android:verticalSpacing="0dp" />
+   	</LinearLayout>   	    
+    
+
+    <RelativeLayout
+        android:id="@+id/SelectFragment_layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_select_package_height"
+        android:background="@color/menu_bar_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Btn_return"
+            style="@style/button_back.enabled" />
+
+        <Button
+            android:id="@+id/btn_Cancel"
+            style="@style/button_cancel" />
+
+        <Button
+            android:id="@+id/btn_Valid"
+            style="@style/button_valid" />
+    </RelativeLayout>
+
+</LinearLayout>

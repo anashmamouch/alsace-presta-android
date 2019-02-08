@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btn_entry"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/error_text"
+        style="@style/text_error" />
+
+    <LinearLayout
+        android:id="@+id/MessageFragment_layout_1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/img_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/MessageFragment_layout_2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.5"
+        android:background="@color/menu_bar_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Btn_return"
+            style="@style/button_back.enabled" />
+
+        <Button
+            android:id="@+id/btn_Cancel"
+            style="@style/button_cancel" />
+
+        <Button
+            android:id="@+id/btn_Valid"
+            style="@style/button_valid.enabled" />
+    </RelativeLayout>
+
+</LinearLayout>

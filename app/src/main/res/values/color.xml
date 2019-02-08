@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blanc">#FFFFFF</color>
+    <color name="vert2">#699C1B</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#FFA800</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="vert_fonce">#009933</color>
+    <color name="gris">#333333</color>
+    <color name="gris4">#b7b7b7</color>
+    <color name="orange2">#FF6600</color>
+    <color name="orange3">#FAEDCB</color>
+    <color name="orange4">#FF9933</color>
+    <color name="orange5">#FFBE00</color>
+    <color name="orange6">#FF7800</color>
+    <color name="orange7">#FF9C00</color>
+    <color name="rouge1">#CC0000</color>
+    <color name="rouge2">#FFCCCC</color>
+    <color name="background3">#eeeeee</color>
+    <color name="noir">#000000</color>
+    <color name="vert3">#013008</color>
+    <color name="vert1">#B1C180</color>
+    <color name="vert4">#EAF5D9</color>
+    <color name="vert5">#D0DAB3</color>
+    <color name="vert6">#102d12</color>
+    <color name="transparent">#80ffffff</color>
+    <color name="default_text_color">#9b1a60</color>
+    <color name="gradient_start_color">#E0E0E0</color>
+    <color name="gradient_end_color">#FFFFFF</color>
+    <color name="default_border_color">#aaaaaa</color>
+    <color name="button_start_color">#D0D0D0</color>
+    <color name="button_end_color">#FFFFFF</color>
+    <color name="button_typeII">#bd81a1</color>
+    <color name="text_color_themeII">#699C1B</color>
+    <color name="button_typeII_themeII">#EAF5D9</color>
+    <color name="action_bar_bg">#CCCCCC</color>
+    <color name="menu_bar_bg">#999999</color>
+    <color name="btn_sale">#FFBE00</color>
+    <color name="btn_sale2">#FFDF81</color>
+    <color name="btn_entry">#FF7F00</color>
+    <color name="mauve">#4F0457</color>
+    <color name="vert">#006600</color>
+    <color name="rouge">#E50000</color>
+    <color name="violet">#6666CC</color>
+    <color name="violet3">#4D4C99</color>
+    <color name="violet2">#8080FF</color>
+    <color name="violet4">#9F9FFE</color>
+    <color name="ocre1">#FF9500</color>
+    <color name="ocre2">#FF7F00</color>
+    <color name="gris2">#888888</color>
+    <color name="st_ok">#00A616</color>
+    <color name="st_error">#E50000</color>
+    <color name="st_warning">#FFDD00</color>
+    <color name="transparent_II">#D9ffffff</color>
+    <color name="transparent_III">#CC999999</color>
+    <color name="orange">#FF9900</color>
+    <color name="warning_msg">#E57300</color>
+    <color name="background_color">#90676767</color>
+    
+    
+    <array name="package_color">
+        <item>#FFBE00</item>
+        <item>#FF9500</item>
+        <item>#FF6C00</item>
+        <item>#FF4E00</item>
+        <item>#FFBE00</item>
+        <item>#FF9500</item>
+        <item>#FF6C00</item>
+        <item>#FF4E00</item>
+        <item>#FFBE00</item>
+        <item>#FF9500</item>
+        <item>#FF6C00</item>
+        <item>#FF4E00</item>
+        <item>#FFBE00</item>
+        <item>#FF9500</item>
+        <item>#FF6C00</item>
+        <item>#FF4E00</item>
+        <item>#FFBE00</item>
+        <item>#FF9500</item>
+        <item>#FF6C00</item>
+        <item>#FF4E00</item>
+        <item>#FFBE00</item>
+        <item>#FF9500</item>
+        <item>#FF6C00</item>
+        <item>#FF4E00</item>
+        <item>#FFBE00</item>
+        <item>#FF9500</item>
+        <item>#FF6C00</item>
+        <item>#FF4E00</item>
+        <item>#FFBE00</item>
+        <item>#FF9500</item>
+        <item>#FF6C00</item>
+        <item>#FF4E00</item>
+        <item>#FFBE00</item>
+        <item>#FF9500</item>
+        <item>#FF6C00</item>
+        <item>#FF4E00</item>
+        <item>#FFBE00</item>
+        <item>#FF9500</item>
+        <item>#FF6C00</item>
+        <item>#FF4E00</item>
+        <item>#FFBE00</item>
+        <item>#FF9500</item>
+        <item>#FF6C00</item>
+        <item>#FF4E00</item>
+        <item>#FFBE00</item>
+        <item>#FF9500</item>
+        <item>#FF6C00</item>
+        <item>#FF4E00</item>
+        <item>#FFBE00</item>
+        <item>#FF9500</item>
+        <item>#FF6C00</item>
+        <item>#FF4E00</item>
+        <item>#FFBE00</item>
+        <item>#FF9500</item>
+        <item>#FF6C00</item>
+        <item>#FF4E00</item>
+        <item>#FFBE00</item>
+        <item>#FF9500</item>
+        <item>#FF6C00</item>
+        <item>#FF4E00</item>
+        <item>#FFBE00</item>
+        <item>#FF9500</item>
+        <item>#FF6C00</item>
+        <item>#FF4E00</item>
+        <item>#FFBE00</item>
+        <item>#FF9500</item>
+        <item>#FF6C00</item>
+        <item>#FF4E00</item>
+    </array>
+</resources>

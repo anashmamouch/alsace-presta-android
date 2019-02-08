@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_size_btnI">28sp</dimen>
+    <dimen name="text_size_btnII">20sp</dimen>
+    <dimen name="padding_checkbox">10dp</dimen>
+
+    <integer name="weight_main_header">1</integer>
+    <integer name="weight_main_display">3</integer>
+    <integer name="weight_header">10</integer>
+    <integer name="weight_display">40</integer>
+    <integer name="weight_keyboard">60</integer>
+    <dimen name="txt_select_package1">20sp</dimen>
+    <dimen name="txt_select_package2">25sp</dimen>
+    <dimen name="btn_select_package_height">60dp</dimen>
+    <dimen name="grid_margin">5dp</dimen>
+    <dimen name="grid_padding">2dp</dimen>
+    <dimen name="txt_header_title">20sp</dimen>
+    <dimen name="offset_picto">-50dp</dimen>
+    <dimen name="offset_btn">80dp</dimen>
+    <dimen name="img_margin">5dp</dimen>
+
+</resources>

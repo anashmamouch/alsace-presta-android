@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MenuFragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/MenuPOSFragment_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@drawable/container1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_sale"
+            style="@style/text_menu_button"
+            android:background="@color/btn_sale"
+            android:drawableTop="@drawable/cart"
+            android:text="@string/sale_activity" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/MenuPOSFragment_layout_2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.5"
+        android:background="@color/menu_bar_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_return"
+            style="@style/button_back.enabled" />
+
+        <Button
+            android:id="@+id/btn_Cancel"
+            style="@style/button_cancel" />
+
+        <Button
+            android:id="@+id/btn_Valid"
+            style="@style/button_valid" />
+    </RelativeLayout>
+
+</LinearLayout>

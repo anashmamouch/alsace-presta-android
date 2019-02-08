@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pass Alsace</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="otipass">Otipass© 2015</string>
+    <string name="about">A propos du Pass Alsace</string>
+    <string name="welcome_msg">Bienvenue !</string>
+    <string name="click_menu">Pour activer le menu général, veuillez cliquer sur le logo en haut à gauche de l\'écran.</string>
+    <string name="synchronize_activity">Synchronisation</string>
+    <string name="init_activity">Initialisation des données</string>
+    <string name="aucune_connexion_disponible">Aucune connexion disponible</string>
+    <string name="warning_message_title">Avertissement</string>
+    <string name="error_message_title">Erreur applicative</string>
+    <string name="entry_activity">Entrée</string>
+    <string name="Stock_step">Réception des données Stock ...</string>
+    <string name="Message_step">Réception des messages ...</string>
+    <string name="home_section">Accueil</string>
+    <string name="pass_section">Pass Alsace</string>
+    <string name="stats_section">Statistiques</string>
+    <string name="stock_section">Stock</string>
+    <string name="events_section">Evènements</string>
+    <string name="maintenance_section">Maintenance</string>
+    <string name="message_fragment">Messages</string>
+    <string name="entry_stats_activity">Statistiques des entrées</string>
+    <string name="sale_stats_activity">Statistiques des ventes</string>
+    <string name="order_stock">Commande de cartes</string>
+    <string name="initialization">Initialisation</string>
+    <string name="synchronization">Synchronisation</string>
+    <string name="cancel_last_operation">Annulation de la dernière opération</string>
+    <string name="entry_sale">Entrée/ Vente</string>
+    <string name="drawer_open">Ouvrir le menu de navigation</string>
+    <string name="drawer_close">Fermer le menu de navigation</string>
+    <string name="confirm_synchronization">Voulez-vous confirmer la synchronisation?</string>
+    <string name="confirm_initialization">Voulez-vous confirmer l\'initialisation?</string>
+    <string name="pass_alsace">Pass Alsace</string>
+    <string name="pass_number_inactif">Pass %1$s Inactif</string>
+    <string name="connected_as">Vous êtes connecté en tant que, %1$s</string>
+    <string name="confirm_quit">Voulez-vous abandonner cette action ?</string>
+    <string name="device">Appareil : %1$s</string>
+    <string name="price">Prix</string>
+    <string name="price_euro">%1$s€</string>
+    <string name="select_action">Sélectionner une action</string>
+
+    <!-- admin activity -->
+    <string name="prompt_login">Login</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="Connexion">Connexion</string>
+    <string name="prompt_Provider_id">Id Prestataire</string>
+    <string name="Valider">Valider</string>
+    <string name="Saisie_Provider_Id">Saisie du Provider Id</string>
+    <string name="Provider_id_incorrect">Identifiant prestataire incorrect</string>
+    <string name="Identifiants_incorrects">Identifiants incorrects</string>
+    <string name="Titre_admin">Séquence d\'initialisation</string>
+
+    <!-- Global -->
+    <string name="Global_yes">OUI</string>
+    <string name="Global_no">NON</string>
+    <string name="Global_yes2">OUI:</string>
+    <string name="Global_no2">NON:</string>
+    <string name="Global_information">Information</string>
+    <string name="Global_ok">OK</string>
+    <string name="Global_oui">Oui</string>
+    <string name="Global_non">Non</string>
+    <string name="Global_veuillez_patienter">Veuillez patienter...</string>
+    <string name="select_language">Langue de l\'application</string>
+    <string name="no_available_connexion">Il n\'y a aucune connexion disponible actuellement</string>
+    <string name="Return">Retour</string>
+    <string name="sale_activity">Vente</string>
+    <string name="Continue">Continuer</string>
+    <string name="select_package">Séléctionner un Pass à vendre</string>
+    <string name="select_service">Séléctionner un service</string>
+    <string name="confirmation_action">Confirmation de l\'action</string>
+    <string name="confirmer_annulation_process">ATTENTION: vous allez abandonner le processus en cours.\nConfirmez-vous l\'abandon ?</string>
+    <string name="confirm_sale">Confirmez-vous la vente ?</string>
+    <string name="scan_pass">Veuillez scanner un Pass au dos de l\'appareil</string>
+    <string name="NFC_not_active">La fonction NFC n\'est pas activée sur cet équipement</string>
+    <string name="Confirmation_quitter">Voulez-vous vous déconnecter ?</string>
+    <string name="validity_date_determined">La date de validité sera déterminée lors de la 1ère entrée</string>
+    <string name="recap">Récapitulatif</string>
+    <string name="remember_todo">IMPORTANT :</string>
+    <string name="alert_client">Prévenir le client qu\'il doit s\'enregistrer</string>
+    <string name="give_brochure">Pensez à remettre la brochure Passe Alsace</string>
+    <string name="validate">Valider</string>
+    <string name="epass_is">L\'ePass est</string>
+    <string name="numOtipass">N° %1$s </string>
+    <string name="give_card_kit">Remettre le Pass kit</string>
+    <string name="pass_number">Pass N°  </string>
+    <string name="pass_type">Type du Pass </string>
+    <string name="status">Statut  : </string>
+    <string name="save_sale_ok">La vente a été enregistrée !</string>
+    <string name="home">Accueil</string>
+    <string name="sale_pass_fail">Le Pass ne peut pas être vendu</string>
+    <string name="pass_inaccepted">Ce pass ne peut pas être accepté !</string>
+    <string name="pass_undefined">Ce Pass ne peut pas être utilisé, le serveur indique un état initial incohérent. Veuillez contacter le support technique Pass Alsace.</string>
+    <string name="pass_adt_ko">Ce Pass n\'est pas un Pass Alsace</string>
+    <string name="pass_adt_ko_offline">Ce Pass n\'est pas reconnu par cet équipement et ne peut pas être vérifié par le serveur car il n\'y a pas de connexion Internet disponible, il est refusé dans ces conditions.</string>
+    <string name="confirm_entry">Confirmez-vous l\'entrée ?</string>
+    <string name="consume">Consommer</string>
+    <string name="child">Enfant</string>
+    <string name="no_service_to_consume">Pas de service à consommer ! </string>
+    <string name="nbPersons_inaccepted">Le nombre de personnes autorisées à entrer est invalide!</string>
+    <string name="entry_pass_fail">L\'entrée ne peut pas être acceptée, état du pass %1$s.</string>
+    <string name="save_entry_ok">L\'entrée a été enregistrée !</string>
+    <string name="check_card_state_running">Vérification de l\'état de la carte en cours.\n</string>
+    <string name="unkown_card">Carte non reconnue! Voulez-vous forcer l\'entrée?</string>
+    <string name="nouvelle_version_dispo">Une nouvelle version logicielle est disponible pour cet appareil.</string>
+    <string name="vous_devez_telechrager">Vous devez télécharger cette nouvelle version  maintenant en cliquant sur le bouton "Télécharger".</string>
+    <string name="msg_pas_connecte">Cet appareil n\'est pas connecté à Internet actuellement.</string>
+    <string name="vous_devez_connecter_et_telecharger">Vous devez connecter cet appareil à Internet puis cliquer sur le bouton "Télécharger".</string>
+    <string name="vous_devez_connecter_et_synchroniser">Vous devez connecter cet appareil à  Internet puis cliquer sur le bouton "Synchroniser".</string>
+    <string name="vous_devez_synchroniser">Vous devez synchroniser maintenant en cliquant sur le bouton "Synchroniser".</string>
+    <string name="msg_pas_de_synchro_nuit">Il n\'y a pas eu de connexion au serveur central durant la nuit.</string>
+    <string name="full_synchro">La synchronisation totale de l\'appareil prend plusieurs dizaines de minutes.</string>
+    <string name="partial_BDD">La base de données interne de la tablette n\'est pas complète. Il y a un risque de refus de certaines cartes.</string>
+    <string name="menu_synchro">Synchroniser</string>
+    <string name="download">Télécharger</string>
+    <string name="download_error">Une erreur est survenue lors du téléchargement.</string>
+    <string name="no_messages">Vous n\'avez aucun message</string>
+    <string name="new_message">Vous avez un message :</string>
+    <string name="new_messages">Vous avez %1$d messages :</string>
+    <string name="rapid_entry_enabled">Le mode d\'entrée rapide est activé! Voulez-vous le désactiver?</string>
+    <string name="rapid_entry_disabled">Le mode d\'entrée rapide est désactivé! Voulez-vous l\'activer?</string>
+    <string name="price_pass">Prix du pass: %1$s€</string>
+    <string name="numotipass_status">%1$d, %2$s</string>
+    <string name="accept_entry">Accepter l\'entrée</string>
+    <string name="type_pass_unkown">Le type du pass est inconnu\nVous pouvez accepter l\'entrée</string>
+    <string name="confirm_entry_type_unkown">Confirmez-vous l\'entrée ?</string>
+    <string name="pass_first_use">1ère utilisation du Pass</string>
+    <string name="service_already_consumed">Le service a déjà été consommé</string>
+    <string name="service_not_included">Le Pass ne contient pas la prestation %1$s</string>
+    <string name="pass_expired">Le pass est expiré depuis le %1$s</string>
+    <string name="pass_invalid_blocked">Le pass a été bloqué et n\'est plus utilisable</string>
+    <string name="order">Commander</string>
+    <string name="you_have_actually_x_cards">Vous avez actuellement %1$d carte(s) en stock.</string>
+    <string name="to_order">Pour commander de nouvelles cartes, cliquer sur le bouton "Commander"</string>
+    <string name="package_selected_price">%1$s\u0020\u0020%2$s€</string>
+    <string name="pass_status">Pass n° %1$d, %2$s</string>
+    <string name="pass_type_service_name">%1$s \n%2$s</string>
+    <string name="pass_validity">1ère utilisation du Pass. Il est valable jusqu\'au %1$s</string>
+    <string name="ask_for_another_sale">Voulez-vous vendre un autre Pass pour le même client?</string>
+    <string name="pass_invalid">Le pass n\'est plus valable</string>
+    <string name="max_use_ok">Le pass a été déjà utilisé 3 jours</string>
+    <string name="synchronize_now">Vous devez synchroniser maintenant en cliquant sur le bouton Valider</string>
+    <string name="no_provider_service">Pas de service pour ce prestataire</string>
+    <string name="no_service_pass">Pas de service pour ce Pass</string>
+    <string name="pass_validity_entry">%1$s \n Le pass est valide jusqu\'au %2$s</string>
+    <string name="pass_scan_fail">Saisie manuelle du n° de Pass</string>
+    <string name="numotipass_entry">Saisie manuelle du n° du Pass</string>
+    <string name="otipass_num">N° du Pass</string>
+    <string name="entry_to_cancel">Annulation entrée</string>
+    <string name="sale_to_cancel">Annulation vente</string>
+    <string name="no_opertation_to_cancel">Il n\'y a aucune opération à annuler</string>
+    <string name="operation_cancel_ok">La dernière opération a été annulée</string>
+    <string name="operation_cancel_ko">La dernière opération n\'a pas été annulée</string>
+    <string name="confirm_cancel_entry">Vous allez annuler l\'entrée %1$s \n Confirmer en cliquant sur le bouton vert</string>
+	<string name="confirm_cancel_sale">Vous allez annuler la vente %1$s \n Confirmer en cliquant sur le bouton vert</string>
+    <string name="pass_selection_PV">Veuillez sélectionner le type du Pass:\n(72h, 48h, 24h, Hiver, ...), Adulte ou Enfant et éventuellement l\'option Batorama, ainsi qu\'une entrée dans votre établissement.</string>
+    <string name="pass_selection">Veuillez sélectionner le type du Pass:\n(72h, 48h, 24h, Hiver, ...), Adulte ou Enfant et éventuellement l\'option Batorama.</string>
+    <string name="pass">Pass</string>
+    <string name="client">Client</string>
+    <string name="option">Option</string>
+    <string name="entree">Entrée</string>
+    <string name="une_entree">1 Entrée</string>
+    <string name="avec_option">avec option</string>
+    <string name="avec_entree">Avec entrée</string>
+    <string name="sans_entree">Sans entrée</string>
+    <string name="prestation_multiple">Prestations multiples</string>
+    <string name="msg_db_model">Il y a une évolution majeure du modèle de données de l\'application qui nécessite une synchronisation totale avec le serveur.</string>
+    <string name="scan_qrcode">Scan Qrcode</string>
+    <string name="no_barcode_scanner">Pour scanner un Qrcode, vous devez au préalable installer l\'application Barcode scanner</string>
+
+    <!-- Connection and record insertion -->
+    <string name="Communication_en_cours">Communication en cours</string>
+    <string name="Fin_communication_ok">La synchronisation avec le serveur est terminée</string>
+    <string name="Fin_communication_erreur">La synchronisation avec le serveur a été interrompue. Erreur: </string>
+    <string name="Connexion_erreur">Impossible de se connecter au serveur</string>
+    <string name="WL_erreur">Impossible d\'obtenir la liste blanche</string>
+    <string name="Param_erreur">Impossible d\'obtenir la liste des paramètres</string>
+    <string name="User_erreur">Impossible d\'obtenir la liste des utilisateurs</string>
+    <string name="WL_Rec_erreur">Impossible de sauvegarder la liste blanche</string>
+    <string name="Param_Rec_erreur">Impossible de sauvegarder la liste des paramètres</string>
+    <string name="User_Rec_erreur">Impossible de sauvegarder la liste des utilisateurs</string>
+    <string name="Upload_erreur">Impossible d\'envoyer les données au serveur</string>
+    <string name="Entry_erreur">Impossible d\'envoyer les entrées au serveur</string>
+    <string name="Autre_erreur">Traitement indéterminé</string>
+    <string name="Upload_step">Connexion OK, envoi des données au serveur ...</string>
+    <string name="Entry_step">Envoi des entrées au serveur ...</string>
+    <string name="WL_step">Connexion OK, attente liste blanche ...</string>
+    <string name="WL_step_n">Réception liste blanche</string>
+    <string name="Param_step">Sauvegarde utilisateurs OK, attente paramètres ...</string>
+    <string name="Param_step1">Sauvegarde des packages</string>
+    <string name="User_step">Sauvegarde Liste Blanche OK, attente utilisateurs ...</string>
+    <string name="WL_Insert_step">Liste blanche OK, sauvegarde de la liste blanche ...</string>
+    <string name="User_Insert_step">Utilisateurs OK, sauvegarde des utilisateurs ...</string>
+    <string name="Param_Insert_step">Paramètres OK, sauvegarde des paramètres ...</string>
+    <string name="UploadDB_step">Envoi DB ...</string>
+    <string name="UploadLogCat_step">Envoi Logcat ...</string>
+    <string name="Init">Connexion OK, attente Initialisation ...</string>
+    <string name="Init_erreur">Impossible d\'exécuter la séquence d\'initialisation</string>
+    <!-- Connection short messages for upload -->
+    <string name="Upload_step_1">Envoi des données au serveur</string>
+    <string name="Upload_step_2">Réception des données</string>
+    <string name="Upload_step_3">Enregistrement des données</string>
+    <string name="Upload_end_OK">OK:</string>
+    <string name="Upload_end_err">Erreur:</string>
+    <string name="Upload">Appel serveur</string>
+    <string name="Aucun_appel_serveur">Aucun appel serveur</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item></item>
+        <item>Messages</item>
+        <item></item>
+        <item>Entrée/Vente</item>
+        <item></item>
+        <item>Statistiques des entrées</item>
+        <item>Statistiques des ventes</item>
+        <item></item>
+        <item>Initialisation</item>
+        <item>Synchronisation</item>
+    </string-array>
+
+    <!-- Nav Drawer Menu Items POS -->
+    <string-array name="nav_drawer_items_pos">
+        <item></item>
+        <item>Messages</item>
+        <item></item>
+        <item>Vente</item>
+        <item></item>
+        <item>Statistiques des ventes</item>
+        <item></item>
+        <item>Stock</item>
+        <item></item>
+        <item>Initialisation</item>
+        <item>Synchronisation</item>
+    </string-array>
+
+    <!-- Nav Drawer Menu Items PROVIDER -->
+    <string-array name="nav_drawer_items_provider">
+        <item></item>
+        <item>Messages</item>
+        <item></item>
+        <item>Entrée</item>
+        <item></item>
+        <item>Statistiques des entrées</item>
+        <item></item>
+        <item>Initialisation</item>
+        <item>Synchronisation</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- form -->
+    <string name="surname">Prénom</string>
+    <string name="name">Nom</string>
+    <string name="civility">Civilité</string>
+    <string name="mr">Monsieur</string>
+    <string name="mrs">Madame</string>
+    <string name="email">e-mail</string>
+    <string name="address">Adresse</string>
+    <string name="title">Titre</string>
+    <string name="country">Pays</string>
+    <string name="postal_code">Code postal</string>
+    <string name="newsletter">Newsletter</string>
+
+    <!-- Pass status -->
+
+    <string name="OTI_ORDERED">Commandé</string>
+    <string name="OTI_CONFIRMED">Confirmé</string>
+    <string name="OTI_CREATED">Créé</string>
+    <string name="OTI_SENT">Envoyé</string>
+    <string name="OTI_DELIVERED">Reçu</string>
+    <string name="OTI_VALID">Valide</string>
+    <string name="OTI_INVALID">Invalide</string>
+    <string name="OTI_EXPIRED">Expiré</string>
+    <string name="OTI_AWAITING_RENEWAL">En attente de renouvellement</string>
+    <string name="OTI_INACTIVE">Inactif</string>
+    <string name="OTI_ACTIVE">Actif</string>
+    <string name="OTI_UNDEFINED">Indéterminé</string>
+
+    <!-- Header -->
+    <string name="home_header">Accueil</string>
+    <string name="entry_sale_header"></string>
+    <string name="entry_scan_header">Entrée > Scan ePass</string>
+    <string name="select_service_header">Entrée > Scan ePass > Séléction du service</string>
+    <string name="confirm_entry_header">Entrée > Scan ePass > Séléction du service > Confirmation</string>
+    <string name="sale_select_package_header">Vente > Séléction du package</string>
+    <string name="sale_scan_header">Vente > Séléction du package > Scan ePass</string>
+    <string name="sale_details_header">Vente > Séléction du package > Scan ePass > Détails de la vente</string>
+    <string name="sale_recap_header"> Détails de la vente > Récapitulation</string>
+    <string name="sale_confirm_header"> Détails de la vente > Récapitulation > Confirmation</string>
+    <string name="entry_header">Entrée</string>
+    <string name="sale_header">Vente</string>
+
+    <string-array name="country_code">
+        <item name="FR">FRANCE</item>
+        <item name="??">AUTRE</item>
+        <item name="DE">ALLEMAGNE</item>
+        <item name="AR">ARGENTINE</item>
+        <item name="AU">AUSTRALIE</item>
+        <item name="AT">AUTRICHE</item>
+        <item name="BE">BELGIQUE</item>
+        <item name="BR">BRESIL</item>
+        <item name="BG">BULGARIE</item>
+        <item name="CA">CANADA</item>
+        <item name="CN">CHINE</item>
+        <item name="KR">COREE</item>
+        <item name="DK">DANEMARK</item>
+        <item name="ES">ESPAGNE</item>
+        <item name="EE">ESTONIE</item>
+        <item name="US">ETATS-UNIS</item>
+        <item name="FI">FINLANDE</item>
+        <item name="GR">GRECE</item>
+        <item name="IE">IRLANDE</item>
+        <item name="IS">ISLANDE</item>
+        <item name="IL">ISRAEL</item>
+        <item name="IT">ITALIE</item>
+        <item name="JP">JAPON</item>
+        <item name="LV">LETTONIE</item>
+        <item name="LI">LIECHTENSTEIN</item>
+        <item name="LT">LITUANIE</item>
+        <item name="LU">LUXEMBOURG</item>
+        <item name="MT">MALTE</item>
+        <item name="NO">NORVEGE</item>
+        <item name="NL">PAYS-BAS</item>
+        <item name="PL">POLOGNE</item>
+        <item name="PT">PORTUGAL</item>
+        <item name="RO">ROUMANIE</item>
+        <item name="GB">ROYAUME-UNI</item>
+        <item name="RU">RUSSIE</item>
+        <item name="SK">SLOVAQUIE</item>
+        <item name="SI">SLOVENIE</item>
+        <item name="SE">SUEDE</item>
+        <item name="CH">SUISSE</item>
+        <item name="CZ">TCHEQUE</item>
+    </string-array>
+    <string-array name="country_code_map">
+        <item>FR|FRANCE</item>
+        <item>\??|AUTRE</item>
+        <item>DE|ALLEMAGNE</item>
+        <item>AR|ARGENTINE</item>
+        <item>AU|AUSTRALIE</item>
+        <item>AT|AUTRICHE</item>
+        <item>BE|BELGIQUE</item>
+        <item>BR|BRESIL</item>
+        <item>BG|BULGARIE</item>
+        <item>CA|CANADA</item>
+        <item>CN|CHINE</item>
+        <item>KR|COREE</item>
+        <item>DK|DANEMARK</item>
+        <item>ES|ESPAGNE</item>
+        <item>EE|ESTONIE</item>
+        <item>US|ETATS-UNIS</item>
+        <item>FI|FINLANDE</item>
+        <item>GR|GRECE</item>
+        <item>IE|IRLANDE</item>
+        <item>IS|ISLANDE</item>
+        <item>IL|ISRAEL</item>
+        <item>IT|ITALIE</item>
+        <item>JP|JAPON</item>
+        <item>LV|LETTONIE</item>
+        <item>LI|LIECHTENSTEIN</item>
+        <item>LT|LITUANIE</item>
+        <item>LU|LUXEMBOURG</item>
+        <item>MT|MALTE</item>
+        <item>NO|NORVEGE</item>
+        <item>NL|PAYS-BAS</item>
+        <item>PL|POLOGNE</item>
+        <item>PT|PORTUGAL</item>
+        <item>RO|ROUMANIE</item>
+        <item>GB|ROYAUME-UNI</item>
+        <item>RU|RUSSIE</item>
+        <item>SK|SLOVAQUIE</item>
+        <item>SI|SLOVENIE</item>
+        <item>SE|SUEDE</item>
+        <item>CH|SUISSE</item>
+        <item>CZ|TCHEQUE</item>
+    </string-array>
+
+    <string name="FR">FRANCE</string>
+    <string name="OTHER">AUTRE</string>
+
+    <string-array name="user_profiles">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>contrôleur</item>
+        <item>caissier</item>
+        <item>caissier/contrôleur</item>
+    </string-array>
+
+    <string-array name="packages_types">
+        <item>3 Jours</item>
+        <item>48 H</item>
+        <item>24 H</item>
+        <item>Hiver</item>
+    </string-array>
+    <string-array name="packages_ref">
+        <item>P3</item>
+        <item>P2</item>
+        <item>P1</item>
+        <item>PH</item>
+    </string-array>
+    
+    <string-array name="holder_types">
+        <item>Adulte</item>
+        <item>Enfant</item>
+    </string-array>
+    <string-array name="holder_ref">
+        <item>A</item>
+        <item>E</item>
+    </string-array>
+    
+    <string-array name="options">
+        <item>Batorama</item>
+    </string-array>
+    <string-array name="options_ref">
+        <item>B</item>
+    </string-array>
+    
+    <string-array name="entry_types">
+        <item>Sans entrée</item>
+    </string-array>
+    
+</resources>

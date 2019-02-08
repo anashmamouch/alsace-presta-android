@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menu_bar_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/weight_header"
+        android:background="@color/menu_bar_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/header_img"
+            android:src="@drawable/unlock"
+            style="@style/img_only_header" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/User_layout_1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/weight_display"
+        android:background="@color/mauve"
+        android:orientation="vertical" >
+    	
+    	<TextView
+	        android:id="@+id/error_text"
+	        style="@style/text_error" />
+
+        <EditText
+            android:id="@+id/login_admin"
+            style="@style/edit_text_init"
+            android:hint="@string/prompt_login"/>
+
+        <EditText
+            android:id="@+id/pwd_admin"
+            style="@style/edit_text_init"
+            android:hint="@string/prompt_password"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/nav_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/weight_keyboard"
+        android:background="@color/menu_bar_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Btn_return"
+            style="@style/button_back" />
+
+        <Button
+            android:id="@+id/btn_Cancel"
+            style="@style/button_cancel" />
+
+        <Button
+            android:id="@+id/btn_Valid"
+            style="@style/button_valid.enabled" />
+    </RelativeLayout>
+
+</LinearLayout>

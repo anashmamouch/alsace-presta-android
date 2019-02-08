@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/Provider_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/container3"
+        android:ems="10"
+        android:hint="@string/prompt_Provider_id"
+        android:inputType="numberDecimal"
+        android:padding="18dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Provider_id_button"
+        style="@style/AppTheme.buttonTypeII"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Provider_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="@string/Valider" />
+
+</RelativeLayout>
